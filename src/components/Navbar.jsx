@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
 
       {menu && (
-        <div className="absolute bg-slate-500 left-0 w-full p-4 ">
+        <div className="absolute bg-slate-500 left-0 w-full p-4 animate-menu">
           <ul className="space-y-2">
             <li className="link-mob">
               <a href="#home">Home</a>
