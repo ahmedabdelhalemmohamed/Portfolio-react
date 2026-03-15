@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <div className="text-center mt-10">
         <h1 className="font-bold text-xl">My Skills</h1>
         <div className="grid grid-cols-1 sm:grid-cols-[repeat(2,minmax(0,400px))] gap-4 justify-center">

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="text-center">
+    <div className="text-center" id="about">
       <h1 className="font-bold text-xl">About Me</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:grid-cols-4">
         <div className="card hover:animate-pulse hover:animate-pulse">
