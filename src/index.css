@@ -30,6 +30,10 @@
     @apply hover:bg-slate-600  py-3 rounded-full transition-colors
   }
 
+  .link-ski {
+    @apply bg-indigo-600 px-5 py-3 rounded-full transition-colors cursor-pointer
+  }
+
   .card {
     @apply border border-indigo-400 m-5 p-5
   }
