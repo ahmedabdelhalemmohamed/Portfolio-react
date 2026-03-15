@@ -13,6 +13,7 @@ const Contact = () => {
     }
     setName("");
     setComments("");
+    console.log(message.length)
   };
 
   return (
@@ -43,7 +44,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/201234567890"
+            href="https://wa.me/201011858630"
             target="_blank"
             rel="noopener noreferrer"
             className=" hover:text-green-500 text-2xl rounded-full"
@@ -77,19 +78,23 @@ const Contact = () => {
           Send To My Email
         </a>
       </div>
+
+      <div className={`p-5 m-5 ${message.length > 0  ? "border-2 border-indigo-500" : ""} flex flex-col gap-5`}>
+         
       {message.map((comment, index) => {
         return (
-          <div key={index}>
-            <div>
-              <FaUser className="text-3xl text-indigo-500" />
+          <div key={index} className="flex space-x-5 items-center">
+            <div className="bg-indigo-500 p-3 rounded-full">
+              <FaUser className="text-3xl text-slate-500" />
             </div>
             <div>
-              <h1>{comment.name}</h1>
+              <h1 className="font-bold text-indigo-500 text-xl">{comment.name}</h1>
               <p>{comment.comments}</p>
             </div>
           </div>
         );
       })}
+      </div> 
     </div>
   );
 };
