@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .link {
+    @apply hover:bg-slate-600 py-3 rounded-full transition-colors
+  }
+}
