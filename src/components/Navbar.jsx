@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className=" p-4 shadow-md ">
+    <nav className=" p-4 shadow-md sticky top-0 z-50 ">
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-bold">
           <a href="">Ahmed</a>
@@ -48,8 +48,8 @@ const Navbar = () => {
       {/* Mobile Menu */}
 
       {menu && (
-        <div>
-          <ul>
+        <div className="absolute bg-slate-500 left-0 w-full p-4 ">
+          <ul className="space-y-2">
             <li className="link">
               <a href="#home">Home</a>
             </li>
@@ -65,7 +65,17 @@ const Navbar = () => {
             <li className="link">
               <a href="#contact">Contact</a>
             </li>
+            <li>
+                <a
+          href="/Ahmed Abdelhalem Mohamed.pdf"
+          download="Ahmed-Abdelhalem-cv.pdf"
+          className="bg-indigo-500 text-white px-4 py-2 rounded-full -ml-2"
+        >
+          Download CV
+        </a>
+            </li>
           </ul>
+          
         </div>
       )}
     </nav>
