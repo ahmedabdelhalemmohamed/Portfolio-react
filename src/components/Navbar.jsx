@@ -33,7 +33,7 @@ const Navbar = () => {
         <a
           href="/Ahmed Abdelhalem Mohamed.pdf"
           download="Ahmed-Abdelhalem-cv.pdf"
-          className="bg-indigo-500 text-white px-4 py-2 rounded-full hidden sm:block"
+          className="bg-indigo-500 hover:bg-indigo-400 text-white px-4 py-2 rounded-full hidden sm:block"
         >
           Download CV
         </a>
