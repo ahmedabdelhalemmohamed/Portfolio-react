@@ -50,19 +50,19 @@ const Navbar = () => {
       {menu && (
         <div className="absolute bg-slate-500 left-0 w-full p-4 ">
           <ul className="space-y-2">
-            <li className="link">
+            <li className="link-mob">
               <a href="#home">Home</a>
             </li>
-            <li className="link">
+            <li className="link-mob">
               <a href="#about">About</a>
             </li>
-            <li className="link">
+            <li className="link-mob">
               <a href="#skills">Skills</a>
             </li>
-            <li className="link">
+            <li className="link-mob">
               <a href="#projects">Projects</a>
             </li>
-            <li className="link">
+            <li className="link-mob">
               <a href="#contact">Contact</a>
             </li>
             <li>

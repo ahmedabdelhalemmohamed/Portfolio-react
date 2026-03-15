@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
+@theme
+
 @layer components {
   .link {
-    @apply hover:bg-slate-600 py-3 rounded-full transition-colors
+    @apply hover:bg-slate-600 px-5 py-3 rounded-full transition-colors
+  }
+
+  .link-mob {
+    @apply hover:bg-slate-600  py-3 rounded-full transition-colors
   }
 }
+
