@@ -6,8 +6,8 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className=" p-4 shadow-md sticky top-0 z-50 ">
-      <div className="flex justify-between items-center">
+    <nav className=" p-4 shadow-md sticky top-0 z-[100] bg-slate-500">
+      <div className="flex justify-between items-center ">
         <h1 className="text-xl font-bold">
           <a href="">Ahmed</a>
         </h1>
