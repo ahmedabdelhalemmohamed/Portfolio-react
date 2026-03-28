@@ -2,7 +2,17 @@ import React from "react";
 
 const Projects = () => {
   const projects = [
-    {
+    
+      {
+        name: "Quran Website",
+        des: "A site for reading the Quran and some other features",
+        skills: ["TailwindCss", "React", "Api"],
+        sources: [
+          "https://quran-website1.vercel.app/",
+          "https://github.com/ahmedabdelhalemmohamed/QuranWeb",
+        ],
+      },
+      {
       name: "Doctor Booking",
       des: "A website for booking appointments with doctors",
       skills: ["Tailwindcss", "React"],
