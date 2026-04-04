@@ -31,7 +31,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="/AHMED ABDELHALEM MOHMAED.pdf"
+          href="/AHMED ABDELHALEM MOHAMED.pdf"
           download="Ahmed Abdelhalem Mohamed.pdf"
           className="bg-indigo-500 hover:bg-indigo-400 text-white px-4 py-2 rounded-full hidden sm:block"
         >
@@ -67,7 +67,7 @@ const Navbar = () => {
             </li>
             <li>
                 <a
-          href="/AHMED ABDELHALEM MOHMAED.pdf"
+          href="/AHMED ABDELHALEM MOHAMED.pdf"
           download="Ahmed Abdelhalem Mohamed.pdf"
           className="bg-indigo-500 text-white px-4 py-2 rounded-full -ml-2"
         >
